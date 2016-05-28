@@ -1,0 +1,245 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+\usepackage{dirtytalk}
+\usepackage{soul}
+
+\begin{document}
+
+\header{alexandros}{ntavelos}{freelance software developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Rue de Ribaucourt 139
+Brussels, 1080
+Belgium
+~
+(0032) 478 06 45 47
+~
+\href{mailto:a.ntavelos@gmail.com}{a.ntavelos@gmail.com}
+\href{http://www.linkedin.com/in/antavelos}{Linkedin}
+\href{https://github.com/antavelos}{Github}
+\href{http://www.codewars.com/users/dvc}{Codewars}
+\section{languages}
+english (\textit{fluent})
+french (\textit{intermediate})
+greek (\textit{mother tongue})
+\end{aside}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{key skills}
+\begin{itemize}
+\item Python, JavaScript, PHP, HTML, CSS, SQL, XML/XSD, C/C++, shell scripting
+\item Django, Flask, SQLAlchemy, Symfony2, AngularJS, Bootstrap
+\item PostgreSQL, MySQL, Oracle
+\item OOP, MVC, REST
+\item Git, Mercurial
+\end{itemize}
+
+\section{experience}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{9/2015-3/2016}
+{\href{http://antser.be}{Antser}}
+{Antwerp, Belgium}
+{\emph {Python Developer} \\
+As a Python developer at Antser I designed and developed the backend of a B2B communication platform. The platform aimed to provide an abstract yet simple way to businesses for sharing their processes and facilitating their communication.\\
+\ul{Tech:} \emph{Flask, SQLAlchemy, AngularJS, XSD, PostgreSQL, REST, Git, Trello}
+}
+
+\entry
+{3/2015-9/2015}
+{\href{http://vikingco.com}{VikingCo}}
+{Hasselt, Belgium}
+{\emph {Python/Django Developer} \\
+As a Python developer at VikingCo I was involved in the development and maintenance of \href{https://vikingco.com}{vikingco.com} and \href{https://mobilevikings.pl}{mobilevikings.pl}. My responsibilities included from bug fixing to whole projects' analysis/development/testing concerning new features in the backend as well as the frontend of the sites and their helpdesk platforms.\\
+\ul{Tech:} \emph{Django 1.7, AngularJS, MySQL, PostgreSQL, REST, Git, JIRA}
+}
+
+\entry
+{1/2014-2/2015}
+{\href{http://famoco.com}{Famoco}}
+{Brussels, Belgium}
+{\emph {Full stack Developer} \\
+As a full stack developer at Famoco I was responsible for the design, development and maintenance of the company's device management web platform (backend \& frontend). The project started from scratch and resulted in providing a flexible user interface as well as an API used by the devices to communicate with the platform. \\
+\ul{Tech:} \emph{Django 1.6, Bootstrap3, PostgreSQL, REST, Mercurial, AWS, Asana}
+}
+
+\entry
+{2/2012-7/2013}
+{\href{http://odmedia.nl}{ODMedia}}
+{Utrecht, Netherlands}
+{\emph {Software Developer} \\
+As a software developer at ODMedia I was involved in design, development and maintenance of two different products:
+\begin{enumerate}
+\item a Windows desktop application (\emph{AVSProcessor}) which enabled automated video/audio processing.
+\item a web based application which integrated the whole work flow of the company along with their CMS.
+\end{enumerate}
+\ul{Tech:} \emph{wxPython, Symfony2, JavaScript, HTML, CSS, MySQL, REST, Git, Pivotal}
+}
+
+\end{entrylist}
+\begin{entrylist}
+\entry
+{3/2011-9/2011}
+{\href{https://www.tilburguniversity.edu}{Tilburg University}}
+{Tilburg, Netherlands}
+{\emph {Web Developer} \\
+As a web developer at Tilburg University I designed and implemented an interactive web application (\emph{Knowledge Map}). The application aimed to visualize the association of the University's professors/researchers and their expertise.\\
+\ul{Tech:} \emph{JavaScript, HTML, CSS, PHP, Google Maps API v3}
+}
+
+
+\entry
+{3/2008-1/2011}
+{\href{http://atos.net/en-us/home.html}{AtoS}}
+{Athens, Greece}
+{\emph {Application Specialist}\\
+As an application specialist at Atos I worked in several projects supporting clients such as MNOs. My main role was to provide first level support as well as investigation of incidents occurred on large scale billing and revenue assurance applications. Moreover, I was involved in designing, implementing and testing new requirements on database level.\\
+\ul{Tech:} \emph{Oracle, PL/SQL, OPSC, BSCS, RAP} \\
+}
+%------------------------------------------------
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2011-2013}
+{MA Communication and Information Sciences}
+{Tilburg University, Netherlands}
+{\emph{Human Aspects of Information Technology} \\ 
+Key modules:
+\begin{itemize}
+\item Data Mining and Knowledge Discovery
+\item Information Search, Retrieval and Recommendation
+\item Natural Language Processing
+\item Artificial Intelligence for Games
+\end{itemize}
+\underline{Master thesis:}\say{\emph{Traffic accidents on Twitter}}
+}
+
+%------------------------------------------------
+
+\entry
+{2001-2007}
+{Ptychion in Informatics and Telecommunications}
+{University of Athens, Greece}
+{\emph{Information Systems} \\
+Key modules:
+\begin{itemize}
+\item Programming and Data Structures
+\item Algorithms and Complexity
+\item Operating Systems
+\item Databases
+\end{itemize}
+\underline{Thesis:}\say{\emph{Specification, Design and Implementation of Catalog Service\\ for Wireless Sensor Networks}}
+}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{trainings}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2010}
+{Cvidya - Revenue Assurance Platform Administration}
+{Bucharest, Romania}
+{Course completion -- 40 hours}
+
+\entry
+{2009}
+{Oracle Database 11g: Administration Workshop I}
+{Athens, Greece}
+{Course completion -- 40 hours}
+
+\entry
+{2009}
+{Sun Cluster 3.1 Administration}
+{Athens, Greece}
+{Course completion -- 40 hours}
+%------------------------------------------------
+
+\end{entrylist}
+
+\pagebreak
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS/CONFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{publications/conferences}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2012}
+{\href{http://ilk.uvt.nl/menno/files/docs/p_lrec_nlp4ugc12.pdf}{Assigning part-of-speech to Dutch tweets}}
+{Tilburg University, Netherlands}
+{During my studies at UvT, I participated in this project along with several other classmates under the supervision of our professor Menno Van Zaanen. The objective was to develop a part-of-speech (POS) tagger for Dutch messages from Twitter. The project was presented at the \emph{22nd Meeting of Computational Linguistics} in The Netherlands in January of 2012 and at the \emph{Language Resources and Evaluation Conference} in Istanbul in May of 2012.
+}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+Sketching, electric guitar/bass, photography, improvisation theater, books, jogging, programming
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
