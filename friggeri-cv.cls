@@ -50,12 +50,12 @@
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
-\newfontfamily\bodyfont[]{HelveticaNeue}
-\newfontfamily\thinfont[]{HelveticaNeue Light}
-\newfontfamily\headingfont[]{HelveticaNeueBold}
+\newfontfamily\bodyfont[]{Titillium-Regular}
+\newfontfamily\thinfont[]{Titillium-Light}
+\newfontfamily\headingfont[]{Titillium-Bold}
 
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text, Color=textcolor]{HelveticaNeue Light}
+\setmainfont[Mapping=tex-text, Color=textcolor]{Titillium-Light}
 
 %\setmathfont{XITS Math}
 
