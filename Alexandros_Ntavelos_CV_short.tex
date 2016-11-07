@@ -1,0 +1,230 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+\usepackage{dirtytalk}
+\usepackage{soul}
+
+\begin{document}
+
+\header{Alexandros} {Ntavelos}{freelance software developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Rue de Ribaucourt 139
+Brussels, 1080
+Belgium
+~
+(0032) 478 06 45 47
+~
+\href{mailto:a.ntavelos@gmail.com}{a.ntavelos@gmail.com}
+\href{http://www.linkedin.com/in/antavelos}{Linkedin}
+\href{https://github.com/antavelos}{Github}
+\href{http://www.codewars.com/users/dvc}{Codewars}
+\section{languages}
+english (\textit{fluent})
+french (\textit{intermediate})
+greek (\textit{mother tongue})
+\end{aside}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{key skills}
+\begin{itemize}
+\item Python, JavaScript, PHP, HTML, CSS, SQL, XML/XSD, C/C++, shell scripting
+\item Django, Flask, SQLAlchemy, Celery, AngularJS, Bootstrap
+\item PostgreSQL, MySQL, Oracle, MSSQL
+\item OOP, MVC, REST
+\item Git, Mercurial, SVN
+\item Jenkins, CircleCI
+\item Linux, Windows
+\end{itemize}
+
+\section{experience}
+
+\begin{entrylist}
+
+%------------------------------------------------
+\entry
+{8/2016-now}
+{\href{http://www.vadis.com}{Vadis - The Data Mining Expert}}
+{Brussels, Belgium}
+{\emph{Senior Software Engineer} \\
+\ul{Tech:} \emph{Flask, SQLAlchemy, Celery, AnjularJS, REST, SQLServer, SVN}
+}
+
+
+\entry
+{9/2015-3/2016}
+{\href{http://antser.be}{Antser}}
+{Antwerp, Belgium}
+{\emph {Python Developer} \\
+\ul{Tech:} \emph{Flask, SQLAlchemy, AngularJS, XSD, PostgreSQL, REST, Git, AWS, Jenkins, Trello}
+}
+
+\entry
+{3/2015-9/2015}
+{\href{http://vikingco.com}{VikingCo}}
+{Hasselt, Belgium}
+{\emph {Python/Django Developer} \\
+\ul{Tech:} \emph{Django 1.7, AngularJS, MySQL, PostgreSQL, REST, Git, CircleCI, JIRA}
+}
+
+\entry
+{1/2014-2/2015}
+{\href{http://famoco.com}{Famoco}}
+{Brussels, Belgium}
+{\emph {Full stack Developer} \\
+\ul{Tech:} \emph{Django 1.6, Bootstrap3, PostgreSQL, REST, Mercurial, AWS, Jenkins, Asana}
+}
+
+\end{entrylist}
+\begin{entrylist}
+\entry
+{2/2012-7/2013}
+{\href{http://odmedia.nl}{ODMedia}}
+{Utrecht, Netherlands}
+{\emph {Software Developer} \\
+\ul{Tech:} \emph{wxPython, Symfony2, JavaScript, HTML, CSS, MySQL, REST, Git, Pivotal}
+}
+
+\entry
+{3/2011-9/2011}
+{\href{https://www.tilburguniversity.edu}{Tilburg University}}
+{Tilburg, Netherlands}
+{\emph {Web Developer} \\
+\ul{Tech:} \emph{JavaScript, HTML, CSS, PHP, Google Maps API v3}
+}
+
+
+\entry
+{3/2008-1/2011}
+{\href{http://atos.net/en-us/home.html}{AtoS}}
+{Athens, Greece}
+{\emph {Application Specialist}\\
+\ul{Tech:} \emph{Oracle, PL/SQL, OPSC, BSCS, RAP} \\
+}
+%------------------------------------------------
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2011-2013}
+{MA Communication and Information Sciences}
+{Tilburg University, Netherlands}
+{\emph{Human Aspects of Information Technology} \\ 
+\underline{Master thesis:}\say{\emph{Traffic accidents on Twitter}}
+}
+
+%------------------------------------------------
+
+\entry
+{2001-2007}
+{Ptychion in Informatics and Telecommunications}
+{University of Athens, Greece}
+{\emph{Information Systems} \\
+\underline{Thesis:}\say{\emph{Specification, Design and Implementation of Catalog Service\\ for Wireless Sensor Networks}}
+}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\pagebreak
+\section{trainings}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2010}
+{Cvidya - Revenue Assurance Platform Administration}
+{Bucharest, Romania}
+{Course completion -- 40 hours}
+
+\entry
+{2009}
+{Oracle Database 11g: Administration Workshop I}
+{Athens, Greece}
+{Course completion -- 40 hours}
+
+\entry
+{2009}
+{Sun Cluster 3.1 Administration}
+{Athens, Greece}
+{Course completion -- 40 hours}
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS/CONFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{publications/conferences}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2012}
+{\href{http://ilk.uvt.nl/menno/files/docs/p_lrec_nlp4ugc12.pdf}{Assigning part-of-speech to Dutch tweets}}
+{Tilburg University, Netherlands}
+{During my studies at UvT, I participated in this project along with several other classmates under the supervision of our professor Menno Van Zaanen. The objective was to develop a part-of-speech (POS) tagger for Dutch messages from Twitter. The project was presented at the \emph{22nd Meeting of Computational Linguistics} in The Netherlands in January of 2012 and at the \emph{Language Resources and Evaluation Conference} in Istanbul in May of 2012.
+}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+Sketching, electric guitar/bass, photography, improvisation theater, books, jogging, programming
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
