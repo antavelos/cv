@@ -181,7 +181,6 @@
 %%%%%%%%%%%%%%%%
 
 \RequirePackage[style=verbose, maxnames=99, sorting=ydnt]{biblatex}
-
 \DeclareFieldFormat[article]{title}{#1\par}
 \DeclareFieldFormat[book]{title}{#1\par}
 \DeclareFieldFormat[inproceedings]{title}{#1\par}
