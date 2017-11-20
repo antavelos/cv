@@ -24,47 +24,38 @@
 \addbibresource{bibliography.bib} % Specify the bibliography file to include publications
 \usepackage{dirtytalk}
 \usepackage{soul}
+\usepackage{color}
 
 \begin{document}
 
-\header{Alexandros} {Ntavelos}{freelance software developer} % Your name and current job title/field
+\header{Alex} {Ntavelos}{freelance software engineer} % Your name and current job title/field
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{aside} % In the aside, each new line forces a line break
-\section{contact}
-Rue de Ribaucourt 139
-Brussels, 1080
-Belgium
+\section{\textcolor{orange}{core} skills}
+\textbf{Pyhton}, \textbf{JavaScript}, \textbf{Django}, \textbf{Flask}, \textbf{SQLAlchemy}, \textbf{Celery}, \textbf{Docker}, \textbf{PostgreSQL}, \textbf{OOP}, \textbf{MVC}, \textbf{REST}, \textbf{Git}, \textbf{Linux}
 ~
-(0032) 478 06 45 47
-~
-\href{mailto:a.ntavelos@gmail.com}{a.ntavelos@gmail.com}
-\href{http://www.linkedin.com/in/antavelos}{Linkedin}
-\href{https://github.com/antavelos}{Github}
-\href{http://www.codewars.com/users/dvc}{Codewars}
-\section{languages}
+PHP, HTML, CSS, XML/XSD, C/C++, shell scripting, AngularJS, Bootstrap, MySQL, Oracle, MSSQL, Mercurial, SVN, Jenkins, CircleCI, Windows
+~~
+\section{\textcolor{orange}{lan}guages}
 english (\textit{fluent})
 french (\textit{intermediate})
 greek (\textit{mother tongue})
+~
+\section{\textcolor{orange}{con}tact}
+Rue de Ribaucourt 139
+Brussels
+Belgium
+~
+(0032) 478 06 45 47
+\href{mailto:a.ntavelos@gmail.com}{a.ntavelos@gmail.com}
+\href{http://ntavelos.net}{ntavelos.net}
 \end{aside}
 
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-\section{key skills}
-\begin{itemize}
-\item Python, JavaScript, PHP, HTML, CSS, SQL, XML/XSD, C/C++, shell scripting
-\item Django, Flask, SQLAlchemy, Celery, AngularJS, Bootstrap
-\item PostgreSQL, MySQL, Oracle, MSSQL
-\item OOP, MVC, REST
-\item Git, Mercurial, SVN
-\item Jenkins, CircleCI
-\item Linux, Windows
-\end{itemize}
 
 \section{experience}
 
@@ -72,12 +63,21 @@ greek (\textit{mother tongue})
 
 %------------------------------------------------
 \entry
-{8/2016-now}
+{3/2017-now}
+{\href{http://www.codabox.com}{CodaBox}}
+{Leuven, Belgium}
+{\emph{Senior Software Engineer} \\
+	Involved in the development and maintenance of the backend of the company's web application (MyCodaBox). The application is used by accountants aiming to dematerialise the bank statements, social documents and sales invoices of their clients by providing a direct file transfer channel between the accountants and the banks or social offices. \\
+	\ul{Tech:} \emph{Django 1.9, PostgreSQL, Docker, CicleCI, REST, Git, JIRA}
+}
+
+\entry
+{8/2016-2/2017}
 {\href{http://www.vadis.com}{Vadis S.A. - The Data Mining Expert}}
 {Brussels, Belgium}
 {\emph{Senior Software Engineer} \\
-As a Senior Software Engineer at Vadis I'm responsible of the lead and the implementation of a web application which wraps up various data mining applications under a single UI.\\
-\ul{Tech:} \emph{Flask, SQLAlchemy, Celery, AnjularJS, REST, SQLServer, SVN}
+Responsible of the lead and the implementation of a web application which wrapped up various data mining applications under a single UI.\\
+\ul{Tech:} \emph{Flask, SQLAlchemy, Celery, AnjularJS, REST, SQLServer, SVN, JIRA}
 }
 
 
@@ -86,7 +86,7 @@ As a Senior Software Engineer at Vadis I'm responsible of the lead and the imple
 {\href{http://antser.be}{Antser}}
 {Antwerp, Belgium}
 {\emph {Python Developer} \\
-As a Python developer at Antser I designed and developed the backend of a B2B communication platform. The platform aimed to provide an abstract yet simple way to businesses for sharing their processes and facilitating their communication.\\
+Designed and developed the backend of a B2B communication platform. The platform aimed to provide an abstract yet simple way to businesses for sharing their processes and facilitating their communication.\\
 \ul{Tech:} \emph{Flask, SQLAlchemy, AngularJS, XSD, PostgreSQL, REST, Git, AWS, Jenkins, Trello}
 }
 
@@ -95,7 +95,7 @@ As a Python developer at Antser I designed and developed the backend of a B2B co
 {\href{http://vikingco.com}{VikingCo}}
 {Hasselt, Belgium}
 {\emph {Python/Django Developer} \\
-As a Python developer at VikingCo I was involved in the development and maintenance of \href{https://vikingco.com}{vikingco.com} and \href{https://mobilevikings.pl}{mobilevikings.pl}. My responsibilities included from bug fixing to whole projects' analysis/development/testing concerning new features in the backend as well as the frontend of the sites and their helpdesk platforms.\\
+Involved in the development and maintenance of \href{https://vikingco.com}{vikingco.com} and \href{https://mobilevikings.pl}{mobilevikings.pl}. My responsibilities included from bug fixing to whole projects' analysis/development/testing concerning new features in the backend as well as the frontend of the sites and their helpdesk platforms.\\
 \ul{Tech:} \emph{Django 1.7, AngularJS, MySQL, PostgreSQL, REST, Git, CircleCI, JIRA}
 }
 
@@ -104,12 +104,10 @@ As a Python developer at VikingCo I was involved in the development and maintena
 {\href{http://famoco.com}{Famoco}}
 {Brussels, Belgium}
 {\emph {Full stack Developer} \\
-As a full stack developer at Famoco I was responsible for the design, development and maintenance of the company's device management web platform (backend \& frontend). The project started from scratch and resulted in providing a flexible user interface as well as an API used by the devices to communicate with the platform. \\
+Responsible for the design, development and maintenance a mobile device management web platform (backend \& frontend). The project started from scratch and resulted in providing a flexible user interface as well as an API used by the devices to communicate with the platform. \\
 \ul{Tech:} \emph{Django 1.6, Bootstrap3, PostgreSQL, REST, Mercurial, AWS, Jenkins, Asana}
 }
 
-\end{entrylist}
-\begin{entrylist}
 \entry
 {2/2012-7/2013}
 {\href{http://odmedia.nl}{ODMedia}}
@@ -123,6 +121,8 @@ As a software developer at ODMedia I was involved in design, development and mai
 \ul{Tech:} \emph{wxPython, Symfony2, JavaScript, HTML, CSS, MySQL, REST, Git, Pivotal}
 }
 
+\end{entrylist}
+\begin{entrylist}
 \entry
 {3/2011-9/2011}
 {\href{https://www.tilburguniversity.edu}{Tilburg University}}
@@ -161,13 +161,6 @@ As an application specialist at Atos I worked in several projects supporting cli
 {MA Communication and Information Sciences}
 {Tilburg University, Netherlands}
 {\emph{Human Aspects of Information Technology} \\ 
-Key modules:
-\begin{itemize}
-\item Data Mining and Knowledge Discovery
-\item Information Search, Retrieval and Recommendation
-\item Natural Language Processing
-\item Artificial Intelligence for Games
-\end{itemize}
 \underline{Master thesis:}\say{\emph{Traffic accidents on Twitter}}
 }
 
@@ -178,13 +171,6 @@ Key modules:
 {Ptychion in Informatics and Telecommunications}
 {University of Athens, Greece}
 {\emph{Information Systems} \\
-Key modules:
-\begin{itemize}
-\item Programming and Data Structures
-\item Algorithms and Complexity
-\item Operating Systems
-\item Databases
-\end{itemize}
 \underline{Thesis:}\say{\emph{Specification, Design and Implementation of Catalog Service\\ for Wireless Sensor Networks}}
 }
 
@@ -192,36 +178,7 @@ Key modules:
 
 \end{entrylist}
 
-%----------------------------------------------------------------------------------------
-%	AWARDS SECTION
-%----------------------------------------------------------------------------------------
-\pagebreak
-\section{trainings}
 
-\begin{entrylist}
-
-%------------------------------------------------
-
-\entry
-{2010}
-{Cvidya - Revenue Assurance Platform Administration}
-{Bucharest, Romania}
-{Course completion -- 40 hours}
-
-\entry
-{2009}
-{Oracle Database 11g: Administration Workshop I}
-{Athens, Greece}
-{Course completion -- 40 hours}
-
-\entry
-{2009}
-{Sun Cluster 3.1 Administration}
-{Athens, Greece}
-{Course completion -- 40 hours}
-%------------------------------------------------
-
-\end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS/CONFERENCES
